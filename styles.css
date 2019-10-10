@@ -1,7 +1,7 @@
 body{
   margin: 0px;
   padding: 0px;
-    background-image: url(embrodery.url);
+    background-image: url(embroidery.url);
   font-family: Arial,sans-serif;
   font-size: 15ps;
   color: #4D4D4D;
@@ -41,11 +41,19 @@ p{
 ul{
   margin: 0px;
   padding: 0px;
-  color:white;
-  font-size: 14px;
-  float: right;????
-  margin-top: 10px;
 }
+
+header ul{
+  header{color:white;
+  font-size: 14px;
+  float: right;
+  margin-top: 10px;
+  }
+  
+header ul li{
+  padding-bottom: 6px;
+  }
+  
 ol{
   margin: 0px;
   padding: 0px;
@@ -58,12 +66,32 @@ li{
   width: 100%;
   border-bottom: 2px dashed;
   padding-bottom: 20px;
-  float: left;???
+  float: left;
 }
 a{
   margin: 0px;
   padding: 0px;
 }
+nav{
+  color: white;
+  font-size: 14px;
+  width: 100%;
+  border-bottom: 2px dashed;
+  padding-bottom: 20px;
+  float: left;
+  }
+  nav a:link{
+    color: #FADA00;
+    text-decoration: none;
+  }
+    nav a:active{
+    color: #FADA00;
+    text-decoration: none;
+  }
+    nav a:visited{
+    color: #FADA00;
+    text-decoration: none;
+  }
 #wrapper{
   margin-top: 20px;
   margin-bottom:20px;
@@ -73,6 +101,10 @@ a{
 #clear{
   clear??????
 }
+#links{
+  float: left;
+  margin-left: 155 px;
+  }
 
 
 
