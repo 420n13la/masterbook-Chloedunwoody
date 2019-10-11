@@ -104,8 +104,123 @@ nav{
 #links{
   float: left;
   margin-left: 155 px;
+}
+#intro{
+  margin-top:10px;
+}
+#intro p {
+  font-family: Helvetica, serif;
+  font-size: 45px;
+  color: white;
+  }
+  
+  .highlight{
+    color: #FADA00;
   }
 
+  .section{
+    margin: 30px 0px 30px 0px;
+  }
+  .section title{
+    padding: 7px 0px 0px 7px;
+    font-weight: bold;
+  }
+  .section body{
+    background-color: white;
+    width: 94%;
+    top-margin: -10px 0px 0px 10px;
+    padding: 0px 25px 25px 25px;
+  }
+  .section body div{
+    display: inline-block;
+  }
+  .item-template{
+    border-bottom: 1px dashed #CCCCCC;
+    width: 100%;
+    margin-top: 22px;
+    margin-bottom: 22px;
+    padding-bottom: 25px
+  }
+  .section-body p{
+    font-size: 14px;
+    line-height: 22px;
+    margin-bottom: 25px;
+  }
+  
+  .last-item{
+    margin-bottom: 0px;
+    border-bottom: 0px;
+  }
+  
+  .demo-date{
+    list-style: none;
+    margin-top: 15px;
+  }
+  
+  .demo-date ul li{
+    padding: 9px 10px 7px 40px;
+    height: 40px;
+    display: inline;
+    background-image: url(check.jpg); 
+  }
+  .text-small{
+    font-size: 12px;
+    color: #4D4D4D;
+    text-transform: uppercase;
+  }
+  .first{
+    margin-bottom: 3px;
+    padding-top: 10px;
+  }
+  #go-top{
+    margin: -8pc 1px 1px 1px;
+  }
+  .hand-cursor{
+    cursor: pointer;
+  }
+  .section-skip{
+    margin: 3px 0px 0px 0px;
+    color: white;
+    width: 100%;
+    text-align: right;
+  }
+  
+  .scroll-links a:link{
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .scroll-links a:active{
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  .scroll-links a:visited{
+    color: white;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+  footer{
+    color: white;
+    font-size: 12px;
+  }
+  footer p{
+    margin-bottom: 10px;
+  }
+  footer a:link{
+    color: #FADA00;
+    text-decoration:none;
+  }
+  footer a:active{
+    color: #FADA00;
+    text-decoration:none;
+  }
+  footer a:visited{
+    color: #FADA00;
+    text-decoration:none;
+  }
+  }
+  
 
 
 
